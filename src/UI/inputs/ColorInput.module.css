@@ -1,0 +1,28 @@
+.color {
+    background: transparent;
+    border: none;
+    border-radius: 50%;
+    appearance: none;
+    width: 40px;
+    height: 40px;
+}
+
+.color::-webkit-color-swatch-wrapper {
+    padding: 0;
+}
+
+.color::-webkit-color-swatch {
+    border: none;
+    border-radius: 10px;
+}
+
+.color::-moz-focus-inner {
+    border: none;
+    padding: 0;
+    border-radius: 50%;
+}
+
+.color::-moz-color-swatch {
+    border: none;
+    border-radius: 50%;
+}

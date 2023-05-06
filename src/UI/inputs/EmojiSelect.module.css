@@ -1,0 +1,73 @@
+.select {
+    position: relative;
+    font-family: 'Noto Color Emoji';
+}
+
+.selectHeader {
+    position: relative;
+    padding: 10px;
+    font-size: 30px;
+    display: inline-block;
+    border: 1px solid #cecece;
+    border-radius: 15px;
+    background-color: #fff;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.selectIcon {
+    margin-left: 10px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    transition: transform .5s ease-out;
+}
+
+.selectItem {
+    font-size: 24px;
+    margin-top: 5px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.active .selectIcon {
+    transform: rotate(180deg);
+}
+
+.selectContent {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, 0);
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 285px;
+    height: 300px;
+    background-color: #fff;
+    border: 1px solid #cecece;
+    border-radius: 15px;
+    overflow-y: scroll;
+    transition: top .5s ease-out, opacity .3s ease-out;
+    pointer-events: none;
+    opacity: 0;
+}
+
+.active .selectContent {
+    pointer-events: all;
+    top: 120%;
+    opacity: 1;
+}
+
+.selectContent::-webkit-scrollbar {
+    width: 20px;
+}
+
+.selectContent::-webkit-scrollbar-thumb {
+    background-color: #cecece;
+    background-clip: content-box;
+    border: 8px solid transparent;
+    height: 100px;
+    border-radius: 15px;
+}
+

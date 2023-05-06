@@ -1,0 +1,24 @@
+.item {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    outline: 0 solid rgba(0, 0, 0, 0.3);
+    transition: outline .3s ease-out;
+
+}
+
+.item:hover {
+    outline: 20px solid rgba(0, 0, 0, 0.3)
+
+}
+
+.emoji {
+    font-size: 26px;
+    font-family: 'Noto Color Emoji';
+}
+

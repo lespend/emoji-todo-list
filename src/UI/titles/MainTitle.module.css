@@ -1,0 +1,47 @@
+.mainTitle {
+    display: block;
+    font-size: 60px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.mainTitileEnterActive {
+    animation: show-text 1s ease-out forwards;
+}
+
+.backdrop {
+    opacity: 1;
+    background: #fff;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    pointer-events: none;
+}
+
+@keyframes hide-backdrop {
+    80% {
+        background: #fff;
+    }
+
+    to {
+        background: transparent;
+        pointer-events: none;
+    }
+}
+
+@keyframes show-text {
+    from {
+        opacity: 0;
+        font-size: 80px;
+        transform: translateY(100%);
+    }
+
+    to {
+        opacity: 1;
+        font-size: 60px;
+        transform: translateY(0);
+    }
+}

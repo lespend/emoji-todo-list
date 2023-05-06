@@ -1,0 +1,88 @@
+.item {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    position: relative;
+    padding: 20px 20px 20px 40px;
+    border-radius: 20px;
+    border: 1px solid #cecece;
+    cursor: pointer;
+    transition: filter .5s ease-out,
+                transform .5s ease-out;
+}
+
+.header {
+    font-size: 28px;
+}
+
+.description {
+    margin-top: 5px;
+    font-size: 18px;
+    color: #AAACA1;
+}
+
+.emoji {
+    background-color: red;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    top: 50%;
+    left: 0;
+    transform: translate(-50%, -50%);
+    font-family: 'Noto Color Emoji';
+    border-radius: 50%;
+    font-size: 25px;
+}
+
+.deleteButton {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+    border: none;
+    font-size: 0;
+    background-color: #E5E5E5;
+    outline: none;
+}
+
+.deleteButton::after {
+    content: '';
+    width: 25px;
+    height: 25px;
+    background: center center url(../assets/icons/trash.svg) no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.deleteButton:hover::after {
+    animation: trash-rotate 2s infinite;
+}
+
+.itemComplete {
+    filter: grayscale(100%);
+    transform: scale(0.9);
+}
+
+@keyframes trash-rotate {
+    0% {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+
+    33% {
+        transform: translate(-50%, -50%) rotate(-30deg);
+    }
+
+    66% {
+        transform: translate(-50%, -50%) rotate(30deg);
+    }
+
+    100% {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+}
