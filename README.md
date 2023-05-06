@@ -1,4 +1,3 @@
-![Скриншот сайта](https://raw.githubusercontent.com/lespend/portfolio-like-terminal/master/src/assets/git1.png)
 # :sunglasses: Emoji Todo List. О проекте:
 ![Shield](https://img.shields.io/badge/React-blue?style=for-the-badge&logo=react&logoColor=white)
 ![Shield](https://img.shields.io/badge/Javascript-f0db4f?style=for-the-badge&logo=javascript&logoColor=black)
