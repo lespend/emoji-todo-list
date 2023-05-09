@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/emoji-todo-list/static/css/main.05ea6cf6.css",
-    "main.js": "/emoji-todo-list/static/js/main.e92075de.js",
+    "main.css": "/emoji-todo-list/static/css/main.343b9c97.css",
+    "main.js": "/emoji-todo-list/static/js/main.fe15f813.js",
     "static/media/data-add.svg": "/emoji-todo-list/static/media/data-add.37481439982d33ba26cf6d89db916af9.svg",
     "static/media/trash.svg": "/emoji-todo-list/static/media/trash.a57f9385fc549b281f62.svg",
     "static/media/down-arrow.svg": "/emoji-todo-list/static/media/down-arrow.c62a9e04997ee10c88dbb75147e78f88.svg",
     "index.html": "/emoji-todo-list/index.html",
     "static/media/plus.svg": "/emoji-todo-list/static/media/plus.2053165c98aed89843d49882cd98190a.svg",
-    "main.05ea6cf6.css.map": "/emoji-todo-list/static/css/main.05ea6cf6.css.map",
-    "main.e92075de.js.map": "/emoji-todo-list/static/js/main.e92075de.js.map"
+    "main.343b9c97.css.map": "/emoji-todo-list/static/css/main.343b9c97.css.map",
+    "main.fe15f813.js.map": "/emoji-todo-list/static/js/main.fe15f813.js.map"
   },
   "entrypoints": [
-    "static/css/main.05ea6cf6.css",
-    "static/js/main.e92075de.js"
+    "static/css/main.343b9c97.css",
+    "static/js/main.fe15f813.js"
   ]
 }
