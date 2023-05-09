@@ -6,3 +6,9 @@
 .form button {
     margin-top: 30px;   
 }
+
+@media (max-width: 540px) {
+    .form {
+        width: 90vw;
+    }
+}

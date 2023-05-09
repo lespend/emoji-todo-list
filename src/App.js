@@ -17,6 +17,7 @@ function App() {
   const [cricleDisplay, setCircleDisplay] = useState(true);
   const [startAnimation, setStartAnimation] = useState(false);
 
+  document.body.style.overflow = cricleDisplay ? 'hidden' : 'visible';
   function todoChangeProperties(id, properties) {
     for (let i = 0; i < todos.length; i++) {
       if (todos[i].id === id) {

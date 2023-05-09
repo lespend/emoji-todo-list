@@ -2,8 +2,16 @@
 ![Shield](https://img.shields.io/badge/React-blue?style=for-the-badge&logo=react&logoColor=white)
 ![Shield](https://img.shields.io/badge/Javascript-f0db4f?style=for-the-badge&logo=javascript&logoColor=black)
 [![Shield](https://img.shields.io/badge/Ссылка%20на%20сайт-gray?style=for-the-badge)](https://lespend.github.io/emoji-todo-list/)
-
 ___
+Моё первое web приложение на React.
+
+Что я узнал при работе над этим проектом:
+* Использование **стандартных хуков React**
+* Создание **кастомных хуков**
+* Работа с **асинхронными запросами** через **Axios**
+* Использование **API** для работы с **Google Noto Emoji**
+* Создание **переиспользуемых компонентов** с помощью **CSS Modules**
+
 
 
 # :gear: Технологии:
